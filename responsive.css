@@ -1,0 +1,73 @@
+/* Untuk Tablets */
+@media (max-width: 1000px) {
+  input,
+  textarea {
+    width: 60%;
+  }
+  button {
+    width: 20%;
+  }
+}
+
+/* Untuk Smartphones */
+@media (max-width: 670px) {
+  header .logo {
+    font-size: 15px;
+  }
+  .navbar {
+    float: left;
+  }
+  header ul li a {
+    display: flex;
+    flex-direction: column;
+    color: black;
+  }
+  .hero h1 {
+    font-size: 30px;
+  }
+
+  section h2 {
+    font-size: 25px;
+    margin-top: 5px;
+    border-left: 5px solid #404146;
+    width: 40%;
+  }
+  section p {
+    font-size: 12px;
+    text-align: justify;
+  }
+  .proyek h2 {
+    font-size: 25px;
+    margin-top: 5px;
+    border-left: 5px solid #404146;
+    width: 60%;
+  }
+  .proyek .contoh {
+    flex-direction: column;
+    align-items: center;
+  }
+  .proyek img {
+    width: 350px;
+  }
+  .contact h2 {
+    font-size: 25px;
+    padding-left: 5px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    border-left: 5px solid #404146;
+    width: 45%;
+  }
+  input,
+  textarea {
+    width: 100%;
+  }
+  button {
+    width: 40%;
+  }
+  .footer-logo {
+    font-size: 25px;
+  }
+  .footer-list {
+    font-size: 15px;
+  }
+}

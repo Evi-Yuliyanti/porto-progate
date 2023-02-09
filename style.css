@@ -1,0 +1,179 @@
+/* myfont */
+@import url("https://fonts.googleapis.com/css2?family=Alice&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+Ahom&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap");
+
+* {
+  box-sizing: border-box;
+  top: 0;
+}
+/* header */
+.container {
+  max-width: 1170px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+header {
+  width: 100%;
+  height: 70px;
+  background-color: #404146;
+  top: 0;
+  color: white;
+}
+header .logo {
+  float: left;
+  margin: 5px;
+  font-family: "Alice", serif;
+}
+
+.navbar {
+  float: right;
+}
+header ul li {
+  display: inline-block;
+  margin: 10px;
+}
+header ul li a {
+  text-decoration: none;
+  color: white;
+}
+header ul li a:hover {
+  color: aqua;
+}
+
+/* hero */
+.hero {
+  text-align: center;
+}
+.hero img {
+  width: 200px;
+}
+.hero h1 {
+  text-transform: uppercase;
+  font-size: 40px;
+  font-family: "Noto Serif Ahom", serif;
+}
+.hero h2 {
+  font-weight: normal;
+  text-transform: capitalize;
+}
+
+/* section */
+section {
+  text-align: center;
+  background-color: #f4f4f4;
+  padding: 50px 20px;
+  margin-top: 70px;
+}
+section h2 {
+  font-size: 30px;
+  font-family: "Noto Serif Ahom", serif;
+}
+section p {
+  font-size: 14px;
+  font-family: "Roboto Slab", serif;
+}
+
+/* proyek */
+.proyek {
+  margin-top: 80px;
+}
+.proyek .contoh {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  justify-items: center;
+  margin-top: 35px;
+}
+.proyek h2 {
+  text-align: center;
+  font-size: 30px;
+  font-family: "Noto Serif Ahom", serif;
+}
+.proyek img {
+  width: 200px;
+  border-radius: 8px;
+}
+.proyek img:hover {
+  box-shadow: 5px 5px rgba(0, 0, 0, 0.6);
+}
+.proyek p {
+  text-align: center;
+}
+
+/*contact  */
+.contact {
+  text-align: center;
+  background-color: #f4f4f4;
+  padding: 20px;
+  margin-top: 20px;
+}
+.contact h2 {
+  font-size: 30px;
+  font-family: "Noto Serif Ahom", serif;
+}
+
+input,
+textarea {
+  background-color: #fff;
+  font-family: "Roboto Slab", serif;
+  padding: 5px;
+}
+input {
+  height: 40px;
+  width: 40%;
+  font-size: 12px;
+  border: none;
+}
+textarea {
+  width: 40%;
+  height: 60px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  font-size: 12px;
+  border: none;
+}
+button {
+  width: 20%;
+  height: 35px;
+  border-radius: 10px;
+  background-color: #f7e989;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 40px;
+  font-family: "Roboto Slab", serif;
+}
+button:hover {
+  box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.7);
+  transition: 0.4s;
+}
+
+/* footer */
+footer {
+  background-color: #7c7d82;
+  color: #fff;
+  height: 120px;
+  padding: 10px;
+}
+
+.footer-logo {
+  float: left;
+  font-size: 32px;
+  margin: 10px;
+  margin-top: 20px;
+  font-family: "Alice", serif;
+}
+
+.footer-list {
+  float: right;
+}
+
+.footer-list li {
+  list-style: none;
+  margin: 10px;
+}
+.footer-list li:hover {
+  color: #404146;
+  cursor: pointer;
+}
